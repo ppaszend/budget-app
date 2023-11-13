@@ -1,0 +1,11 @@
+.o-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  width: 100%;
+  max-width: 1000px;
+
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
